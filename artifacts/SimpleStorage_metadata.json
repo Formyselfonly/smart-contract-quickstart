@@ -73,11 +73,11 @@
 	},
 	"sources": {
 		"SimpleStorage.sol": {
-			"keccak256": "0xadef1f14e503ad8fdcf813ba22de67fb4fc7024788e87f8a92abce7757be5602",
+			"keccak256": "0x54e8101b14c5f92a2a7a009174ef8d7b50ef70a547c5108c84e3df84f72af3d0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6012d95066d05e82c345e4f003247fa9ae64e21194a6c4dd7f97b2a5c15a2eb4",
-				"dweb:/ipfs/QmX6xJpKMKEdh7YsjVQJmmvP8axmvsKKVu6c5gjbGaT4Jo"
+				"bzz-raw://d3a4726600091e18067edd24ae4a5fc72852cb5aa8fc8120d57c4562f3f718da",
+				"dweb:/ipfs/QmfWycfU6kmhtpMvmKufpV3DZLGYcVEVxWaHEDQbreGzAg"
 			]
 		}
 	},
