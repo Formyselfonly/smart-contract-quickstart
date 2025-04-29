@@ -44,15 +44,11 @@ Here is teach you the basic step and related code,the full code is in Code Chapt
    - Install the `ethers.js` package to interact with the blockchain:
 
      ```
-     bash
-     
-     
-     CopyEdit
      npm install ethers
      ```
-
+     
    - In your frontend project, create a file (e.g., `contractInfo.ts`) to store your **contract address** and **ABI**.
-
+   
    - Use `ethers.js` in your frontend to:
 
      - Connect to MetaMask (or another Web3 wallet)
@@ -60,15 +56,11 @@ Here is teach you the basic step and related code,the full code is in Code Chapt
      - Send transactions to the contract (e.g., `set()` or `deposit()` methods)
 
    - Run your frontend with:
-
+   
      ```
-     bash
-     
-     
-     CopyEdit
      npm run dev
      ```
-
+     
    - Open your browser at http://localhost:3000 and interact with your smart contract through a user-friendly interface.
 
 ## 📂 Full Code here
@@ -82,7 +74,7 @@ Here is teach you the basic step and related code,the full code is in Code Chapt
 Paste this code:
 
 ```
-solidityCopyEdit// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
 contract SimpleStorage {
@@ -124,7 +116,7 @@ contract SimpleStorage {
 #### 1. Create a Next.js App
 
 ```
-bashCopyEditnpx create-next-app@latest my-dapp
+npx create-next-app@latest my-dapp
 cd my-dapp
 npm install ethers
 ```
@@ -134,7 +126,7 @@ npm install ethers
 Create `constants/contractInfo.ts` and paste:
 
 ```
-tsCopyEditexport const contractAddress = "0xYourContractAddressHere"; // Replace with Remix address
+export const contractAddress = "0xYourContractAddressHere"; // Replace with Remix address
 
 export const contractABI = [
   {
@@ -159,7 +151,7 @@ export const contractABI = [
 #### 3. Update `pages/index.tsx`
 
 ```
-tsxCopyEdit'use client'; // If using Next.js 13+
+'use client'; // If using Next.js 13+
 
 import { useState } from "react";
 import { ethers } from "ethers";
@@ -207,10 +199,6 @@ export default function Home() {
 ### 🧪 Step 3: Run the DApp
 
 ```
-bash
-
-
-CopyEdit
 npm run dev
 ```
 
